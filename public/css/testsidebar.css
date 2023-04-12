@@ -1,0 +1,699 @@
+body{
+  background: #f7f7fa;
+}
+
+#side_nav{
+  background: #fff;
+  min-width: 250px;
+  max-width: 250px;
+  transition: all 0.35s;
+}
+
+
+.content{
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+.user-name{
+  color: #333333;
+}
+
+.page-header .col{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center
+}
+
+.page-header .breadcrumb{
+  background-color:transparent;
+  color:#6c757d;
+  font-size:1rem;
+  font-weight:500;
+  margin-bottom:0;
+  padding:0;
+  margin-left:auto
+}
+
+.page-header{
+  margin-bottom:1.875rem
+}
+
+.page-header .breadcrumb{
+  font-size:15px
+}
+
+.page-header{
+  margin-bottom:.9375rem
+}
+
+.page-title{
+  color:#333;
+  margin-bottom:5px;
+  font-size:22px;
+  font-weight:500;
+  color:#2c323f;
+  margin-bottom:5px;
+  font-size:22px;
+}
+
+.page-sub-header{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  margin-left:auto;
+}
+
+.form-control{
+  border:1px solid #ddd;
+  box-shadow:none;
+  color:#333;
+  font-size:15px;
+  height:45px
+}
+
+.form-control:focus{
+  border-color:#3d5ee1;
+  box-shadow:none;
+  outline:0
+}
+.form-control.form-control-sm{
+  height:calc(1.5em + .5rem + 2px)
+}
+.form-control-sm{
+  background-color:#fff
+}
+.form-control.form-control-lg{
+  height:calc(1.5em + 1rem + 2px)
+}
+
+.local-forms{
+  position:relative
+}
+.local-forms label{
+  font-size:13px;
+  color:#ababab;
+  font-weight:500;
+  position:absolute;
+  top:-10px;
+  left:10px;
+  background:#fff;
+  margin-bottom:0;
+  padding:0 5px;
+  z-index:99
+}
+.local-forms .form-control::placeholder{
+  color:#333;
+  font-size:14px
+}
+.form-group.local-forms{
+  margin-bottom:40px
+}
+
+.form-group{
+  margin-bottom:1.25rem
+}
+
+.search-student-btn .btn-primary{
+  min-width:135px;
+  font-size:14px;
+  font-weight:700;
+  text-transform:uppercase;
+  padding:11px 15px
+}
+
+@media(max-width:1199.5px){
+  .sm-box h6{
+      font-size:30px
+  }
+  .sm-box p{
+      font-size:22px
+  }
+  .sm-box .fab{
+      font-size:100px
+  }
+  .dash-widget3{
+      padding-right:15px
+  }
+  .dash-widget4{
+      padding-left:15px
+  }
+  .app-listing{
+      display:inline-block
+  }
+  .app-listing li{
+      width:49%;
+      display:inline-block
+  }
+  .report-btn .btn{
+      width:200px
+  }
+  .sm-box p{
+      font-size:16px
+  }
+  .sm-box h6{
+      font-size:20px
+  }
+  .social-boxs{
+      background:#fff;
+      width:50px;
+      height:46px
+  }
+  .profile-user-img img{
+      border:4px solid #fff;
+      width:75px
+  }
+  .names-profiles h4{
+      font-size:16px
+  }
+  .names-profiles h5{
+      font-size:13px
+  }
+  .follow-group{
+      padding:0 10px
+  }
+  .students-follows h4{
+      font-size:18px
+  }
+  .follow-btn-group{
+      margin:10px 0
+  }
+  .follow-btn-group .btn-info{
+      min-width:80px;
+      font-size:14px;
+      padding:5px 15px
+  }
+  .profile-edit-icon{
+      width:26px;
+      height:26px
+  }
+  .profile-edit-icon i{
+      font-size:12px
+  }
+  .search-student-btn .btn-primary{
+      min-width:95px
+  }
+}
+
+@media(max-width:991.98px){
+  .header .header-left{
+      position:absolute;
+      width:100%;
+      padding:0 50px
+  }
+  .mobile_btn{
+      color:#18aefa!important;
+      cursor:pointer;
+      display:block;
+      font-size:24px;
+      height:60px;
+      left:0;
+      line-height:60px;
+      padding:0 15px;
+      position:absolute;
+      text-align:center;
+      top:0;
+      z-index:10
+  }
+  #toggle_btn{
+      display:none
+  }
+  .top-nav-search{
+      display:none
+  }
+
+  .login-wrapper .loginbox .login-right{
+      padding:50px;
+      width:50%
+  }
+  .sidebar{
+      margin-left:-225px;
+      width:225px;
+      -webkit-transition:all .4s ease;
+      -moz-transition:all .4s ease;
+      transition:all .4s ease;
+      z-index:1041
+  }
+  .page-wrapper{
+      margin-left:0;
+      padding-left:0;
+      padding-right:0;
+      -webkit-transition:all .4s ease;
+      -moz-transition:all .4s ease;
+      transition:all .4s ease
+  }
+  .user-menu.nav>li>a{
+      color:#18aefa
+  }
+  .user-menu.nav>li>a .badge{
+      background-color:#3d5ee1;
+      color:#fff
+  }
+  .user-menu.nav>li>a:hover i,.user-menu.nav>li>a:focus i{
+      color:#fff
+  }
+  .sm-box h6{
+      font-size:25px
+  }
+  .sm-box p{
+      font-size:20px
+  }
+  .sm-box .fab{
+      font-size:100px
+  }
+  footer{
+      text-align:center
+  }
+  .dash-circle{
+      display:block
+  }
+  .dash-circle .col-12{
+      display:flex
+  }
+  .dash-widget1{
+      border-right:none
+  }
+  .dash-widget1 ul li{
+      width:40%
+  }
+  .page-header .breadcrumb{
+      font-size:15px
+  }
+  .multipleSelection #checkBoxes,.SortBy #checkBox{
+      width:100%
+  }
+  .invoice-item-bg .invoice-info{
+      border-right:0;
+      padding:0;
+      margin-top:0
+  }
+  .invoice-payment-box .payment-details p{
+      font-size:15px
+  }
+  .invoice-head p{
+      font-size:16px
+  }
+  .invoice-item-bg{
+      padding:20px;
+      padding-bottom:0
+  }
+  .invoice-terms h6{
+      font-size:18px
+  }
+  .invoice-terms h6{
+      font-size:18px
+  }
+  .invoice-head h2{
+      font-size:18px
+  }
+  .invoice-head p{
+      font-size:16px
+  }
+  .invoice-item-bg .invoice-info{
+      border-right:0;
+      padding:0;
+      margin-top:0
+  }
+  .invoice-item-bg{
+      padding:20px;
+      padding-bottom:0
+  }
+  .invoice-total-footer h4{
+      font-size:15px
+  }
+  .settings-form .social-icon{
+      width:45px;
+      font-size:20px
+  }
+  .settings-form .trash{
+      width:40px
+  }
+  .links-cont .form-control{
+      width:calc(100% - 93px)
+  }
+  .sm-box p{
+      font-size:16px
+  }
+  .sm-box h6{
+      font-size:20px
+  }
+  .social-boxs{
+      background:#fff;
+      width:50px;
+      height:46px
+  }
+  .activity-feed .feed-item .feed-text1 a{
+      font-size:16px
+  }
+  .lesson-activity{
+      padding-left:15px
+  }
+  .profile-user-img img{
+      border:4px solid #fff;
+      width:75px
+  }
+  .names-profiles h4{
+      font-size:16px
+  }
+  .names-profiles h5{
+      font-size:13px
+  }
+  .follow-group{
+      padding:0 10px
+  }
+  .students-follows h4{
+      font-size:18px
+  }
+  .follow-btn-group{
+      margin:10px 0
+  }
+  .follow-btn-group .btn-info{
+      min-width:80px;
+      font-size:14px;
+      padding:5px 15px
+  }
+  .profile-edit-icon{
+      width:26px;
+      height:26px
+  }
+  .profile-edit-icon i{
+      font-size:12px
+  }
+  .search-student-btn{
+      margin-bottom:20px
+  }
+}
+
+.form-title{
+  width:100%;
+  max-width:100%;
+  padding:0;
+  font-size:1.25rem;
+  font-weight:500;
+  line-height:inherit;
+  color:#333;
+  white-space:normal;
+  position:relative;
+  display:block;
+  margin-bottom:30px
+}
+.form-title span{
+  padding:0 .5rem 0 0;
+  background-color:#fff;
+  display:inline-block;
+  z-index:2;
+  position:relative
+}
+
+.nouv-form{
+  color: #333;
+    font-family: roboto,sans-serif;
+    font-size: 15px;
+}
+
+.login-danger,.star-red{
+  color:red
+}
+
+.image-group-container{
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  text-align: center;
+}
+
+#image{
+  max-width: 100% !important;
+  max-height: 100% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.display_image{
+  width: 105px;
+  height: 120px;
+  border: solid 1px black;
+  display: block;
+  margin: 10px auto;
+}
+
+.photo-label{
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+hr.h-color{
+  background: #eee;
+  height: 2px;
+}
+
+.sidebar li.active{
+  background: #eee;
+  border-radius: 8px;
+}
+
+.sidebar li.active a, .sidebar li.active a:hover {
+  color: #0d6efd;
+}
+
+.sidebar li a{
+  color: #343a40;
+  line-height: 1.5;
+}
+
+@media(max-width: 767px){
+  #side_nav{
+    margin-left: -250px;
+    position: fixed;
+    min-height: 100vh;
+    z-index: 10000;
+  }
+
+  #side_nav.active{
+    margin-left: 0;
+  }
+}
+
+.search-student-btn .btn-primary{
+  min-width:135px;
+  font-size:14px;
+  font-weight:700;
+  text-transform:uppercase;
+  padding:11px 15px
+}
+
+.card-table .card-body .table>thead>tr>th{
+  border-top:0
+}
+.card-table .card-body .table tr td:first-child,.card-table .card-body .table tr th:first-child{
+  padding-left:1.5rem
+}
+.card-table .card-body .table tr td:last-child,.card-table .card-body .table tr th:last-child{
+  padding-right:1.5rem
+}
+.card-table .table td,.card-table .table th{
+  border-top:1px solid #e2e5e8;
+  padding:1rem .75rem;
+  white-space:nowrap
+}
+
+.card.card-chart,.card.comman-shadow{
+  background:#fff;
+  box-shadow:0 0 31px rgba(44,50,63,.02);
+  border-radius:15px;
+  border:0
+}
+.card.card-chart .card-header,.card.comman-shadow .card-header{
+  border-radius:15px 15px 0 0;
+  border-bottom:0;
+  padding-bottom:10px
+}
+
+.card-table .card-body .table>thead>tr>th{
+  border-top:0
+}
+.card-table .card-body .table tr td:first-child,.card-table .card-body .table tr th:first-child{
+  padding-left:1.5rem
+}
+.card-table .card-body .table tr td:last-child,.card-table .card-body .table tr th:last-child{
+  padding-right:1.5rem
+}
+
+.card-body{
+  padding:1.5rem
+}
+.card-body{
+  position:relative;
+  padding:25px
+}
+
+.invoices-grid-card .card-body{
+  padding:20px
+}
+.invoices-grid-card .card-body span{
+  font-size:14px
+}
+.invoices-grid-card .card-body h6{
+  font-size:16px;
+  font-weight:500;
+  color:#1b2559;
+  margin-top:4px
+}
+
+.ribbon-wrapper .card-body,.ribbon-vertical-left-wrapper .card-body,.ribbon-vertical-right-wrapper .card-body{
+  position:unset
+}
+
+.table-responsive{
+  white-space:nowrap
+}
+
+.table{
+  color:#333;
+  max-width:100%;
+  margin-bottom:0;
+  width:100%
+}
+
+.table>:not(:first-child){
+  border-top:transparent
+}
+.table>:not(caption)>*>*{
+  box-shadow:unset;
+  padding:.75rem
+}
+.table thead th{
+  vertical-align:bottom;
+  border-bottom:1px solid #dee2e6
+}
+.table-responsive{
+  white-space:nowrap
+}
+.table-striped>tbody>tr:nth-of-type(2n+1){
+  background-color:#f8f9fa
+}
+.table.no-border>tbody>tr>td,.table>tbody>tr>th,.table.no-border>tfoot>tr>td,.table.no-border>tfoot>tr>th,.table.no-border>thead>tr>td,.table.no-border>thead>tr>th{
+  border-top:0;
+  padding:10px 8px
+}
+.table-nowrap td,.table-nowrap th{
+  white-space:nowrap
+}
+.table.dataTable{
+  border-collapse:collapse!important;
+  border:1px solid rgba(0,0,0,.05)
+}
+table.table td h2{
+  display:inline-block;
+  font-size:inherit;
+  font-weight:400;
+  margin:0;
+  padding:0;
+  vertical-align:middle
+}
+table.table td h2.table-avatar{
+  align-items:center;
+  display:inline-flex;
+  font-size:inherit;
+  font-weight:400;
+  margin:0;
+  padding:0;
+  vertical-align:middle;
+  white-space:nowrap
+}
+table.table td h2 a{
+  color:#333
+}
+table.table td h2 a:hover{
+  color:#3d5ee1
+}
+table.table td h2 span{
+  color:#888;
+  display:block;
+  font-size:12px;
+  margin-top:3px
+}
+.table thead tr th{
+  font-weight:600
+}
+.table tbody tr{
+  border-bottom:1px solid #dee2e6
+}
+.table.table-center td,.table.table-center th{
+  vertical-align:middle
+}
+.table-hover tbody tr:hover{
+  background-color:#f7f7f7
+}
+.table-hover tbody tr:hover td{
+  color:#474648
+}
+.table-striped thead tr{
+  border-color:transparent
+}
+.table-striped tbody tr{
+  border-color:transparent
+}
+.table-striped tbody tr:nth-of-type(even){
+  background-color:rgba(255,255,255,.3)
+}
+.table-striped tbody tr:nth-of-type(odd){
+  background-color:rgba(235,235,235,.4)
+}
+.table-bordered{
+  border:1px solid rgba(0,0,0,.05)!important
+}
+.table-bordered th,.table-bordered td{
+  border-color:rgba(0,0,0,.05)
+}
+.card-table .card-body .table>thead>tr>th{
+  border-top:0
+}
+.card-table .card-body .table tr td:first-child,.card-table .card-body .table tr th:first-child{
+  padding-left:1.5rem
+}
+.card-table .card-body .table tr td:last-child,.card-table .card-body .table tr th:last-child{
+  padding-right:1.5rem
+}
+.card-table .table td,.card-table .table th{
+  border-top:1px solid #e2e5e8;
+  padding:1rem .75rem;
+  white-space:nowrap
+}
+.table .thead-light th{
+  color:#495057;
+  background-color:#f8f9fa;
+  border-color:#eff2f7
+}
+.table .student-thread th{
+  color:#000;
+  background-color:#f8f9fa;
+  border-color:#eff2f7
+}
+
+
+/* Set the background color of the scrollbar */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Set the color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Set the color of the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+
